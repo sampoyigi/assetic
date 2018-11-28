@@ -1,5 +1,5 @@
 {
-    "name": "kriswallsmith/assetic",
+    "name": "sampoyigi/assetic",
     "description": "Asset Management for PHP",
     "keywords": [ "assets", "compression", "minification" ],
     "homepage": "https://github.com/kriswallsmith/assetic",
@@ -14,14 +14,14 @@
     ],
     "require": {
         "php": ">=5.3.1",
-        "symfony/process": "~2.1|~3.0"
+        "symfony/process": "~2.1|~3.0|^4.1"
     },
     "conflict": {
         "twig/twig": "<1.27"
     },
     "require-dev": {
         "leafo/lessphp": "^0.3.7",
-        "leafo/scssphp": "~0.1",
+        "leafo/scssphp": "~0.7",
         "meenie/javascript-packer": "^1.1",
         "mrclay/minify": "<2.3",
         "natxet/cssmin": "3.0.4",
@@ -32,7 +32,7 @@
         "symfony/phpunit-bridge": "~2.7|~3.0",
         "twig/twig": "~1.23|~2.0",
         "yfix/packager": "dev-master"
-    },
+     },
     "suggest": {
         "twig/twig": "Assetic provides the integration with the Twig templating engine",
         "leafo/lessphp": "Assetic provides the integration with the lessphp LESS compiler",
