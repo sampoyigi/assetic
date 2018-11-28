@@ -24,7 +24,7 @@
         "leafo/scssphp": "~0.7",
         "meenie/javascript-packer": "^1.1",
         "mrclay/minify": "<2.3",
-        "natxet/cssmin": "3.0.4",
+        "natxet/cssmin": "~3.0",
         "patchwork/jsqueeze": "~1.0|~2.0",
         "phpunit/phpunit": "~4.8 || ^5.6",
         "psr/log": "~1.0",
